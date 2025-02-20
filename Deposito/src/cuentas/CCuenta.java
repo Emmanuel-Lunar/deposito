@@ -1,5 +1,4 @@
 package cuentas;
-
 public class CCuenta {
 
 
@@ -18,7 +17,7 @@ public class CCuenta {
         cuenta=cue;
         saldo=sal;
     }
-//getter y setter
+// inicio de los getters y setters
         
     public double estado()
     {
@@ -57,7 +56,7 @@ public class CCuenta {
 		this.tipoInterés = tipoInterés;
 	}
 
-	//fin	
+	//fin del encapsulamiento de Getter y Setter	
 	
 	public void ingresar(double cantidad) throws Exception
     {

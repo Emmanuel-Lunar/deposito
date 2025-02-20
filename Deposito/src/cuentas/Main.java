@@ -3,13 +3,13 @@ package cuentas;
 public class Main {
 
     public static void main(String[] args) {
-        operativa_cuenta(2500);
+        operativa_cuenta(2500);// aqui ingresamos el monto por que por defecto no lo hara
     }
 
 	public static void operativa_cuenta(float cantidad) {
 		CCuenta cuenta1;
         double saldoActual;
-
+        																//y aqui ponemos la variable cantidad
         cuenta1 = new CCuenta("Antonio López","1000-2365-85-1230456789",cantidad,0);
         saldoActual = cuenta1.estado();
         System.out.println("El saldo actual es"+ saldoActual );
