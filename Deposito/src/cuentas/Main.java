@@ -3,7 +3,7 @@ package cuentas;
 public class Main {
 
     public static void main(String[] args) {
-        operativa_cuenta(2500);// aqui ingresamos el monto por que por defecto no lo hara
+        operativa_cuenta(2500);// aqui ingresamos el monto por que por defecto no lo hara.
     }
 
 	public static void operativa_cuenta(float cantidad) {
