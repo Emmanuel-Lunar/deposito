@@ -1,4 +1,5 @@
 package cuentas;
+
 public class CCuenta {
 
 
@@ -17,12 +18,13 @@ public class CCuenta {
         cuenta=cue;
         saldo=sal;
     }
+//getter y setter
+        
+    public double estado()
+    {
+        return saldo;
+    }
 
-    
-    //comienzo de Getters y Setters
-    
-    
-    
     public String getNombre() {
 		return nombre;
 	}
@@ -55,17 +57,9 @@ public class CCuenta {
 		this.tipoInterés = tipoInterés;
 	}
 
+	//fin	
 	
-	
-	
-	
-	
-	public double estado()
-    {
-        return saldo;
-    }
-
-    public void ingresar(double cantidad) throws Exception
+	public void ingresar(double cantidad) throws Exception
     {
         if (cantidad<0)
             throw new Exception("No se puede ingresar una cantidad negativa");
